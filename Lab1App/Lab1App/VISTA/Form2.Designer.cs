@@ -30,6 +30,7 @@ namespace Lab1App.VISTA
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.txtdesavilitar = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -45,13 +46,21 @@ namespace Lab1App.VISTA
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
             // 
+            // txtdesavilitar
+            // 
+            this.txtdesavilitar.Location = new System.Drawing.Point(91, 204);
+            this.txtdesavilitar.Name = "txtdesavilitar";
+            this.txtdesavilitar.Size = new System.Drawing.Size(298, 22);
+            this.txtdesavilitar.TabIndex = 2;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(977, 554);
+            this.Controls.Add(this.txtdesavilitar);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -62,5 +71,6 @@ namespace Lab1App.VISTA
 
         #endregion
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtdesavilitar;
     }
 }
