@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lab1App
+namespace Lab1App.VISTA
 {
-    public partial class Form1 : Form
+    public partial class FrmLoguin : Form
     {
-        public Form1()
+        public FrmLoguin()
         {
             InitializeComponent();
         }

@@ -1,0 +1,12 @@
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\bin\Debug\Lab1App.exe.config
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\bin\Debug\Lab1App.exe
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\bin\Debug\Lab1App.pdb
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.csprojAssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.Properties.Resources.resources
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.VISTA.Form2.resources
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.VISTA.FrmLoguin.resources
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.Form1.resources
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.csproj.GenerateResource.cache
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.exe
+C:\Users\USUARIO\Documents\GitHub\Lab1\Lab1App\Lab1App\obj\Debug\Lab1App.pdb

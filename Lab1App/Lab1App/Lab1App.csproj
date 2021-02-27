@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VISTA\Form1.cs">
+    <Compile Include="VISTA\FrmLoguin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VISTA\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="VISTA\FrmLoguin.Designer.cs">
+      <DependentUpon>FrmLoguin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +77,12 @@
     </Compile>
     <EmbeddedResource Include="VISTA\FrmApp.resx">
       <DependentUpon>FrmApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA\FrmLoguin.resx">
+      <DependentUpon>FrmLoguin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
