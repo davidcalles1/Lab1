@@ -16,5 +16,12 @@ namespace Lab1App.VISTA
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
     }
 }
