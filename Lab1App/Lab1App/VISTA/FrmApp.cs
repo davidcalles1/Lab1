@@ -16,5 +16,10 @@ namespace Lab1App.VISTA
         {
             InitializeComponent();
         }
+        public String estadouser;
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            label1.Text = estadouser;
+        }
     }
 }

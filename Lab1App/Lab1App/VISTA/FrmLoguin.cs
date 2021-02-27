@@ -33,6 +33,7 @@ namespace Lab1App.VISTA
             if (acceso == true) {
                 MessageBox.Show("ACCESO CONSEDIDO");
                 Form2 fr = new Form2();
+                fr.estadouser = txtUser.Text;
                 fr.Show();
 
             }
