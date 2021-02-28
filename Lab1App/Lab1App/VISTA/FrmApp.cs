@@ -27,6 +27,11 @@ namespace Lab1App.VISTA
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            string lb = txtNombreP.Text;
+            lblNombrePro.Text = lb;
+            string iv = txtIva.Text;
+            
+
             double a = Convert.ToDouble(txtPrecio.Text);
             double b = Convert.ToDouble(txtCantidad.Text);
             double t = a * b;

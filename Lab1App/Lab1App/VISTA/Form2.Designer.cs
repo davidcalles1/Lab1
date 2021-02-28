@@ -216,6 +216,7 @@ namespace Lab1App.VISTA
             // 
             // Form2
             // 
+            this.AcceptButton = this.btnCalcular;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(760, 462);
@@ -239,6 +240,7 @@ namespace Lab1App.VISTA
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.btnCalcular);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
