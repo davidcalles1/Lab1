@@ -44,17 +44,17 @@ namespace Lab1App.VISTA
             this.txtUser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUser.Location = new System.Drawing.Point(108, 50);
-            this.txtUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUser.Location = new System.Drawing.Point(92, 50);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(2);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(333, 20);
+            this.txtUser.Size = new System.Drawing.Size(364, 20);
             this.txtUser.TabIndex = 0;
             // 
             // txtPass
             // 
             this.txtPass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtPass.Location = new System.Drawing.Point(92, 134);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(364, 20);
@@ -66,7 +66,7 @@ namespace Lab1App.VISTA
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnregis.Location = new System.Drawing.Point(229, 207);
-            this.btnregis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnregis.Margin = new System.Windows.Forms.Padding(2);
             this.btnregis.Name = "btnregis";
             this.btnregis.Size = new System.Drawing.Size(85, 28);
             this.btnregis.TabIndex = 2;
@@ -105,7 +105,7 @@ namespace Lab1App.VISTA
             this.Controls.Add(this.btnregis);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmLoguin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLoguin";

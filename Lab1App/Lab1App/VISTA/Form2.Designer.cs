@@ -247,7 +247,7 @@ namespace Lab1App.VISTA
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 43;
-            this.btnSalir.Text = "SALIR";
+            this.btnSalir.Text = "MENU";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.button1_Click);
             // 
