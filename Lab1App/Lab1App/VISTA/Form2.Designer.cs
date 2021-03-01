@@ -30,7 +30,6 @@ namespace Lab1App.VISTA
         private void InitializeComponent()
         {
             this.lblTotalSinDes = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.lblNombrePro = new System.Windows.Forms.Label();
             this.lblTotalPago = new System.Windows.Forms.Label();
             this.lblTotalSinDescuento = new System.Windows.Forms.Label();
@@ -48,6 +47,9 @@ namespace Lab1App.VISTA
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.txtCantidad = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblsecion = new System.Windows.Forms.Label();
+            this.lblusuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblTotalSinDes
@@ -59,19 +61,10 @@ namespace Lab1App.VISTA
             this.lblTotalSinDes.TabIndex = 38;
             this.lblTotalSinDes.Text = "TOTAL SIN DESCUENTO Y CON IVA INCLUIDO ";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(514, 168);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 13);
-            this.label14.TabIndex = 37;
-            this.label14.Text = "label14";
-            // 
             // lblNombrePro
             // 
             this.lblNombrePro.AutoSize = true;
-            this.lblNombrePro.Location = new System.Drawing.Point(585, 236);
+            this.lblNombrePro.Location = new System.Drawing.Point(615, 238);
             this.lblNombrePro.Name = "lblNombrePro";
             this.lblNombrePro.Size = new System.Drawing.Size(109, 13);
             this.lblNombrePro.TabIndex = 36;
@@ -134,7 +127,7 @@ namespace Lab1App.VISTA
             // lblTotalSinIv
             // 
             this.lblTotalSinIv.AutoSize = true;
-            this.lblTotalSinIv.Location = new System.Drawing.Point(481, 271);
+            this.lblTotalSinIv.Location = new System.Drawing.Point(481, 267);
             this.lblTotalSinIv.Name = "lblTotalSinIv";
             this.lblTotalSinIv.Size = new System.Drawing.Size(86, 13);
             this.lblTotalSinIv.TabIndex = 29;
@@ -214,14 +207,44 @@ namespace Lab1App.VISTA
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(499, 238);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 13);
+            this.label1.TabIndex = 39;
+            this.label1.Text = "PRODUCTO";
+            // 
+            // lblsecion
+            // 
+            this.lblsecion.AutoSize = true;
+            this.lblsecion.Location = new System.Drawing.Point(659, 9);
+            this.lblsecion.Name = "lblsecion";
+            this.lblsecion.Size = new System.Drawing.Size(76, 13);
+            this.lblsecion.TabIndex = 40;
+            this.lblsecion.Text = "secicon actual";
+            this.lblsecion.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // lblusuario
+            // 
+            this.lblusuario.AutoSize = true;
+            this.lblusuario.Location = new System.Drawing.Point(659, 32);
+            this.lblusuario.Name = "lblusuario";
+            this.lblusuario.Size = new System.Drawing.Size(15, 13);
+            this.lblusuario.TabIndex = 41;
+            this.lblusuario.Text = "la";
+            // 
             // Form2
             // 
             this.AcceptButton = this.btnCalcular;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(760, 462);
+            this.Controls.Add(this.lblusuario);
+            this.Controls.Add(this.lblsecion);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTotalSinDes);
-            this.Controls.Add(this.label14);
             this.Controls.Add(this.lblNombrePro);
             this.Controls.Add(this.lblTotalPago);
             this.Controls.Add(this.lblTotalSinDescuento);
@@ -251,7 +274,6 @@ namespace Lab1App.VISTA
         #endregion
 
         private System.Windows.Forms.Label lblTotalSinDes;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label lblNombrePro;
         private System.Windows.Forms.Label lblTotalPago;
         private System.Windows.Forms.Label lblTotalSinDescuento;
@@ -264,10 +286,13 @@ namespace Lab1App.VISTA
         private System.Windows.Forms.Label lblPrecio;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Label lblIva;
-        private System.Windows.Forms.TextBox txtIva;
-        private System.Windows.Forms.TextBox txtNombreP;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.Button btnCalcular;
+        public System.Windows.Forms.TextBox txtIva;
+        public System.Windows.Forms.TextBox txtNombreP;
+        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label lblsecion;
+        public System.Windows.Forms.Label lblusuario;
     }
 }

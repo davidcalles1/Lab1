@@ -22,6 +22,7 @@ namespace Lab1App
         {
 
             FrmLoguin fr = new FrmLoguin();
+            fr.tipoUsuario = 0;
             fr.Show();
 
                
@@ -30,6 +31,7 @@ namespace Lab1App
         private void button2_Click(object sender, EventArgs e)
         {
             FrmLoguin fr = new FrmLoguin();
+            fr.tipoUsuario = 1;
             fr.Show();
 
         }

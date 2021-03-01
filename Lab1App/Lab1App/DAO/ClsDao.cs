@@ -8,9 +8,9 @@ namespace Lab1App.DAO
 {
     class ClsDao
     {
-        public String[] users = new String[2] { "Milton", "Nelson" };
+        public String[] users = new String[4] { "Carlos", "Eva","Raquel","Agustin" };
 
-        public String[] pass = new String[2] { "123", "123" };
+        public String[] pass = new String[4] { "123", "123","123","123" };
 
 
     }
