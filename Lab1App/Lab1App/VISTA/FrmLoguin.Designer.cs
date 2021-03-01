@@ -33,7 +33,7 @@ namespace Lab1App.VISTA
             this.txtUser = new System.Windows.Forms.TextBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.txtPass = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnregis = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
@@ -47,34 +47,32 @@ namespace Lab1App.VISTA
             this.txtUser.Location = new System.Drawing.Point(108, 50);
             this.txtUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(364, 20);
+            this.txtUser.Size = new System.Drawing.Size(333, 20);
             this.txtUser.TabIndex = 0;
             // 
             // txtPass
             // 
-            this.txtPass.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPass.Location = new System.Drawing.Point(108, 134);
+            this.txtPass.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtPass.Location = new System.Drawing.Point(92, 134);
             this.txtPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(364, 20);
             this.txtPass.TabIndex = 1;
             // 
-            // button1
+            // btnregis
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnregis.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(229, 207);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 28);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Regitrarte";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnregis.Location = new System.Drawing.Point(229, 207);
+            this.btnregis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnregis.Name = "btnregis";
+            this.btnregis.Size = new System.Drawing.Size(85, 28);
+            this.btnregis.TabIndex = 2;
+            this.btnregis.Text = "Registrar ";
+            this.btnregis.UseVisualStyleBackColor = true;
+            this.btnregis.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -98,12 +96,13 @@ namespace Lab1App.VISTA
             // 
             // FrmLoguin
             // 
+            this.AcceptButton = this.btnregis;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(569, 366);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnregis);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -121,7 +120,7 @@ namespace Lab1App.VISTA
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnregis;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }

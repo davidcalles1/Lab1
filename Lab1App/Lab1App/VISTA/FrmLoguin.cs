@@ -126,10 +126,10 @@ namespace Lab1App.VISTA
                     }
 
                 }
-                
-                
 
 
+
+                this.Hide();
             }
             else
             {
